@@ -26,8 +26,7 @@ class Song
   end
   
   def self.genre_count
-    genres = {}
-    
+    @@genres.histogram
   end
     
 end
